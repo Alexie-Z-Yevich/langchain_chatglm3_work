@@ -9,8 +9,8 @@ from langchain_openai import OpenAI
 input_orin = "查询目标"
 input_content = "查询附近的海玛斯"
 # input_content = "查询半小时内发现的目标"
-os.environ["OPENAI_API_BASE"] = 'https://oneapi.xty.app/v1'
-os.environ["OPENAI_API_KEY"] = 'sk-DolLcIaoEKZbCyMN61A4362e988f4f3f93B6D8C5B4B85bDf'
+os.environ["OPENAI_API_BASE"] = ''
+os.environ["OPENAI_API_KEY"] = ''
 
 llm = ChatGLM3()
 # llm = OpenAI(max_tokens=3000)
